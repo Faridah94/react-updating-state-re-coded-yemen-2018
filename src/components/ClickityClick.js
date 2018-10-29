@@ -11,12 +11,20 @@ import React from 'react';
     };
   }
    handleClick = () => {
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 167a06e32c784ee30291f3efc07c86da7114eaa2
       this.setState({
     hasBeenClicked: true
   }, () => console.log(this.state.hasBeenClicked)) // prints true
    }
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 167a06e32c784ee30291f3efc07c86da7114eaa2
    render() {
     return (
       <div>
